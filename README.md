@@ -3,14 +3,14 @@ Promises based queue which allow you to specify a certain concurrency and retrie
 
 ## Getting started
 ```javascript
-const processingQueue = require('processingqueue');
+const simpleConcurrencyQueue = require('simple-concurrency-queue');
 const config = {
   concurrency: 10, //default 1
   timeout: 1000, //ms
   bufferSize: 20, //default 1
   retrieveFunction: retrieve
 }
-const myQueue = new processingQueue(process, config);
+const myQueue = new simpleConcurrencyQueue(process, config);
 myQueue.start();
 
 async function process(item) {
@@ -30,7 +30,7 @@ myQueue.on("timeout", (item) => console.log("My item timed out: ", item));
 
 ## Constructor
 ```javascript
-new processingQueue(processingFunction, configurationObject);
+new simpleConcurrencyQueue(processingFunction, configurationObject);
 ```
   * processingFunction: Function to be called when an item is called for processing.
   * configurationObject: Object with the configuration for the queue. (optional)
