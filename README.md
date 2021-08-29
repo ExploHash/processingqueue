@@ -1,4 +1,4 @@
-# Processingqueue
+# Simple Concurrency Queue
 Promises based queue which allow you to specify a certain concurrency and retrieve, process and complete functions to handle a certain workload.
 
 ## Getting started
