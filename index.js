@@ -41,6 +41,15 @@ class ProcessingQueue extends EventEmitter {
     }else{
       this.#processingFunction = processingFunction;
     }
+
+    if(typeof processingFunction !== "function"){
+      throw new Error("Processing function is not a function");
+    }
+
+    if(typeof options !== "object"){
+      throw new Error("Options is not an object");
+    }
+
     Object.entries(options).forEach(([key, value]) => {
       if(!this.#optionMapping[key]) {
         throw new Error(`Unknown option: ${key}`);
