@@ -1,0 +1,24 @@
+{
+  "name": "processingqueue",
+  "version": "1.0.0",
+  "description": "Promises based queue which allow you to specify a certain concurrency and retrieve, process and complete functions to handle a certain workload.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExploHash/promisesqueue.git"
+  },
+  "keywords": [
+    "promises",
+    "queue",
+    "processing"
+  ],
+  "author": "ExploHash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExploHash/promisesqueue/issues"
+  },
+  "homepage": "https://github.com/ExploHash/promisesqueue#readme"
+}
