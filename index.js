@@ -1,6 +1,6 @@
 const EventEmitter = require('events');
 
-class ProcessingQueue extends EventEmitter {
+class SimpleConcurrencyQueue extends EventEmitter {
   #config = {
     concurrency: 1,
     timeout: 0,
@@ -132,4 +132,4 @@ class ProcessingQueue extends EventEmitter {
   }
 }
 
-module.exports = ProcessingQueue;
+module.exports = SimpleConcurrencyQueue;
