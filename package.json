@@ -1,5 +1,5 @@
 {
-  "name": "processingqueue",
+  "name": "@explohash/processingqueue",
   "version": "1.0.1",
   "description": "Promises based queue which allow you to specify a certain concurrency and retrieve, process and complete functions to handle a certain workload.",
   "main": "index.js",
