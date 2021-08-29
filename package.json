@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ExploHash/promisesqueue.git"
+    "url": "git+https://github.com/ExploHash/simple-concurrency-queue.git"
   },
   "keywords": [
     "promises",
@@ -18,7 +18,7 @@
   "author": "ExploHash",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ExploHash/promisesqueue/issues"
+    "url": "https://github.com/ExploHash/simple-concurrency-queue/issues"
   },
-  "homepage": "https://github.com/ExploHash/promisesqueue#readme"
+  "homepage": "https://github.com/ExploHash/simple-concurrency-queue#readme"
 }
